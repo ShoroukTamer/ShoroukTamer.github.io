@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+</style>
+
+</head>
+<body>
+    <div class="board">
+        <btn id="onoff" onclick="toggle()">OFF</btn>
+        <div class="homescore" id="homescore">
+            <h1>HOME</h1>
+            <div class="home" id="home"></div>
+            <btn class="plusone" onclick="plusoneh()">+1</btn>
+            <btn class="plustwo" onclick="plustwoh()">+2</btn>
+            <btn class="plusthree" onclick="plusthreeh()">+3</btn>
+        </div>
+        <div class="guestscore" id="guestscore">
+            <h1>GUEST</h1>
+            <div class="guest" id="guest"></div>
+            <btn class="plusone" onclick="plusoneg()">+1</btn>
+            <btn class="plustwo" onclick="plustwog()">+2</btn>
+            <btn class="plusthree" onclick="plusthreeg()">+3</btn>
+        </div>
+        <btn class="rst" onclick="reset()">Reset</btn>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

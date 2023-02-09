@@ -1,0 +1,128 @@
+              
+.board{
+display: flex ;
+position: relative;
+height: 385px;
+width: 575px;
+border-radius: 0px;
+background-color: #1B244A;
+justify-content: center;
+margin:300px auto;
+}
+.home{
+    position: absolute;
+    height: 70px;
+    width: 95px;
+    left: 92px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: black;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    color: coral;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px; 
+}
+.guest{
+    position: absolute;
+    height: 70px;
+    width: 95px;
+    left: 337px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: black;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    color: coral;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+}
+.plusone,.plustwo,.plusthree{
+    border: 1px solid white;
+    font-size: 24px;
+    color: white;
+    width: 45px;
+    height: 38px;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
+.homescore .plusone{
+position: absolute;
+left: 90px;
+top: 260px; 
+}
+.homescore .plustwo{
+    position: absolute;
+    left: 150px;
+    top: 260px; 
+}
+.homescore .plusthree{
+    position: absolute;
+    left: 210px;
+    top: 260px; 
+}
+.guestscore .plusone{
+    position: absolute;
+    top: 260px;
+    left: 330px;
+}
+.guestscore .plustwo{
+    position: absolute;
+    top:260px;
+    left: 390px;
+}
+.guestscore .plusthree{
+    position: absolute;
+    top: 260px;
+    left: 450px;
+}
+.homescore h1{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    color: white;;
+    font-family: 'Times New Roman', Times, serif;
+}
+.guestscore h1{
+    position: absolute;
+    left: 360px;
+    top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.rst{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    color: white;
+    border: 1px solid white;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#onoff{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: red;
+    color:white;
+    justify-content: center;
+    font-size: 23px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rst:hover,.plusone:hover,.plustwo:hover,.plusthree:hover,#onoff:hover{
+
+border: 2px solid rgb(141, 78, 222);
+}
